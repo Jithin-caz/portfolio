@@ -1,0 +1,135 @@
+div.mydetails
+{
+  color:aquamarine;
+text-align:left;
+}
+div.skills
+{
+    color:white;
+    text-align: left;
+}
+h1{
+    
+    text-align: left;
+    text-decoration:wavy;
+    text-shadow: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    text-align: center;
+}
+div.contact
+{
+    font-weight: bold;
+    text-align: left;
+
+}
+.datime
+{
+    
+    text-align: right;
+    right: 30px;
+}
+#date
+{
+    position:absolute;
+
+    top: 50px;
+}
+#time
+{
+    position:absolute;
+   
+    top: 80px;
+}
+
+
+body{
+    background-image: linear-gradient(to left,black,purple);
+    
+    color:gold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.num
+{
+    
+    color:greenyellow;
+}
+.email
+{
+  
+    color:greenyellow;
+}
+.github
+{
+    
+    color:greenyellow;
+}
+.jithin
+{
+    font-family: 'Irish Grover';
+    position:absolute;
+    top:50px;
+    left:500px ;
+    
+
+    color:black;
+    
+    
+    animation:rotation1 5s infinite
+}
+@keyframes rotation1
+{
+    0%
+    {
+        transform:rotate(0deg);
+    }
+   
+    100%
+    {
+        transform:rotate(-360deg);
+    }
+}
+.reji
+{
+    font-family: 'Irish Grover';
+    position:absolute;
+    
+    top:50px;
+    left:680px ;
+
+    color:white;
+    
+    animation:rotation2 5s infinite
+}
+@keyframes rotation2
+{
+   
+   
+    100%
+    {
+        transform:rotate(360deg);
+    }
+}
+.works
+{
+    align-items: baseline;
+  background-color: red;
+  font-size: medium;
+  color:gold;
+}
+img
+{
+    height:200px;
+    width: 400px;
+    border-radius: 25px;
+    
+    position: absolute;
+    right:0px;
+    top: 150px;
+}
